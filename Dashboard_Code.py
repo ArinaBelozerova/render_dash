@@ -2,8 +2,6 @@
 # coding: utf-8
 
 # In[9]:
-pip install openpyxl
-
 
 import plotly.express as px
 import pandas as pd
