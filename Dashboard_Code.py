@@ -17,9 +17,9 @@ from dash import Dash, dcc, html, Input, Output
 # In[ ]:
 
 
-dframe = pd.read_excel('C:\\Users\\ArinaBelozerova\\OneDrive - Unwired Ventures Limited\\Desktop\\Occupancy Study Sheet Test (Schroders Data).xlsx', sheet_name = 'Desks')
+dframe = pd.read_excel('Occupancy Study Test.xlsx', sheet_name = 'Desks')
 
-dframe_meeting = pd.read_excel('C:\\Users\\ArinaBelozerova\\OneDrive - Unwired Ventures Limited\\Desktop\\Occupancy Study Sheet Test (Schroders Data).xlsx', sheet_name = 'Meeting Spaces')
+dframe_meeting = pd.read_excel('Occupancy Study Test.xlsx', sheet_name = 'Meeting Spaces')
 
 
 # In[ ]:
