@@ -11,7 +11,6 @@ import plotly.graph_objects as go
 import math
 import re
 import random
-from jupyter_dash import JupyterDash
 from dash import Dash, dcc, html, Input, Output
 
 
@@ -264,8 +263,8 @@ dframe_meeting['Week 2'] = 'Week ' + dframe_meeting['Week']
 # In[ ]:
 
 
-app = JupyterDash()
-
+app = Dash(__name__)
+server = app.server
 
 
 app.layout = html.Div([
